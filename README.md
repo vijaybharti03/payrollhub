@@ -18,17 +18,11 @@ Developed and operated by **Jay Internet Center** (Govt. of India Registered MSM
 
 ---
 
-## 🌐 Live Pages & Structure
+## 🌐 Live Pages & Links
 
-- **Homepage (`index.html`)**: Features, MSME Trust Banner, Dashboard Preview, Downloads & FAQs.
-- **About Us (`about.html`)**: Company Profile of Jay Internet Center, MSME certificate details, core principles & values.
-- **Privacy Policy (`privacy.html`)**: Comprehensive privacy policy covering local data storage, Google Drive sync permissions, camera/signature usage, and user rights.
-- **Terms of Service (`terms.html`)**: Legal terms of service, software license, liability limitations, and jurisdiction (Raigarh, CG).
-- **Contact Us (`contact.html`)**: Official address details, support hours, phone/WhatsApp contact, and inquiry form.
-
----
-
-## 📥 App Downloads
-
-- 🌐 **Live Website**: [https://vijaybharti03.github.io/PayrollHub/](https://vijaybharti03.github.io/PayrollHub/)
+- 🏠 **Homepage**: [https://vijaybharti03.github.io/payrollhub/](https://vijaybharti03.github.io/payrollhub/)
+- ℹ️ **About Us**: [https://vijaybharti03.github.io/payrollhub/about.html](https://vijaybharti03.github.io/payrollhub/about.html)
+- 🔒 **Privacy Policy**: [https://vijaybharti03.github.io/payrollhub/privacy.html](https://vijaybharti03.github.io/payrollhub/privacy.html)
+- 📜 **Terms of Service**: [https://vijaybharti03.github.io/payrollhub/terms.html](https://vijaybharti03.github.io/payrollhub/terms.html)
+- 📞 **Contact Us**: [https://vijaybharti03.github.io/payrollhub/contact.html](https://vijaybharti03.github.io/payrollhub/contact.html)
 - 📥 **Download App (.APK)**: [app-release.apk](https://github.com/vijaybharti03/PayrollHub/raw/main/app-release.apk)
