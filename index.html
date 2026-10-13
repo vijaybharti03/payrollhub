@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payroll Hub - Smart Worker Advance & Payroll Management</title>
-    <meta name="description" content="All-in-one Android app for worker advance management, site attendance, payroll calculations, PDF payslip generation, and Google Drive auto-sync.">
+    <title>Payroll Hub - Smart Worker Advance & Site Payroll Management System</title>
+    <meta name="description" content="All-in-one Android app for worker advance management, site attendance, payroll calculations, PDF payslip generation, and Google Drive auto-sync. Developed by Jay Internet Center (MSME Reg: UDYAM-CG-13-0004087).">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -12,10 +12,18 @@
 </head>
 <body>
 
+    <!-- Top Trust Bar -->
+    <div class="top-trust-bar">
+        <div class="container trust-container">
+            <span>🇮🇳 Govt. of India Registered MSME Enterprise | Udyam Reg: <strong>UDYAM-CG-13-0004087</strong> (Jay Internet Center)</span>
+            <a href="contact.html">Support & Contact</a>
+        </div>
+    </div>
+
     <!-- Header Navigation -->
     <header class="navbar">
         <div class="container nav-container">
-            <a href="#" class="brand-logo">
+            <a href="index.html" class="brand-logo">
                 <div class="logo-icon">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
                 </div>
@@ -23,10 +31,13 @@
             </a>
 
             <nav class="nav-links" id="navLinks">
+                <a href="index.html" class="active">Home</a>
                 <a href="#features">Features</a>
-                <a href="#solutions">Solutions</a>
-                <a href="#security">Security & Sync</a>
-                <a href="#faq">FAQ</a>
+                <a href="#company">Company</a>
+                <a href="about.html">About Us</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms</a>
+                <a href="contact.html">Contact Us</a>
                 <a href="app-release.apk" class="btn btn-outline nav-btn">Download APK</a>
             </nav>
 
@@ -43,11 +54,11 @@
         <div class="container hero-container">
             <div class="hero-content">
                 <div class="badge">
-                    <span class="badge-dot"></span> Android Native App v19.0
+                    <span class="badge-dot"></span> Android Native App v19.0 | By Jay Internet Center
                 </div>
                 <h1>Smart Worker Advance & Payroll Management System</h1>
                 <p class="hero-subtitle">
-                    Effortlessly manage worker advance payments, daily attendance, site transfers, and payroll calculations. Designed for contractors, site managers, and businesses.
+                    Effortlessly manage worker advance payments, daily attendance, site transfers, and payroll calculations. Built for contractors, site managers, and businesses with 100% data privacy.
                 </p>
                 <div class="hero-actions">
                     <a href="app-release.apk" class="btn btn-primary">
@@ -69,8 +80,8 @@
                         <span class="stat-label">Google Drive Sync</span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number">PDF/CSV</span>
-                        <span class="stat-label">Instant Payslip Exports</span>
+                        <span class="stat-number">MSME</span>
+                        <span class="stat-label">Govt. Registered Entity</span>
                     </div>
                 </div>
             </div>
@@ -116,6 +127,40 @@
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                         Encrypted Local Database with Automatic Cloud Recovery
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Trust Banner Section -->
+    <section class="company-trust-section" id="company">
+        <div class="container">
+            <div class="trust-card">
+                <div class="trust-badge-col">
+                    <div class="msme-emblem">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <div>
+                        <span class="t-sub">Recognized MSME Enterprise</span>
+                        <h3>Jay Internet Center</h3>
+                    </div>
+                </div>
+                <div class="trust-details-grid">
+                    <div class="t-detail-item">
+                        <span class="t-label">Udyam Registration No.</span>
+                        <strong class="t-val">UDYAM-CG-13-0004087</strong>
+                    </div>
+                    <div class="t-detail-item">
+                        <span class="t-label">Enterprise Type</span>
+                        <strong class="t-val">Micro Enterprise (Services)</strong>
+                    </div>
+                    <div class="t-detail-item">
+                        <span class="t-label">Registered Office</span>
+                        <strong class="t-val">Raigarh, Chhattisgarh - 496001</strong>
+                    </div>
+                </div>
+                <div class="trust-action">
+                    <a href="about.html" class="btn btn-secondary">Company Details &rarr;</a>
                 </div>
             </div>
         </div>
@@ -175,8 +220,8 @@
                     <div class="feature-icon bg-rose">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M8 13h8"/><path d="M8 17h8"/><path d="M10 9h1"/></svg>
                     </div>
-                    <h3>JSL Govt Payroll Module</h3>
-                    <p>Dedicated module for government labour rules, compliance details, Excel/CSV master imports, and specialized labour registers.</p>
+                    <h3>Compliance & Master Export</h3>
+                    <p>Dedicated module for government labor compliance, Excel/CSV master imports, and specialized labor registers.</p>
                 </div>
             </div>
         </div>
@@ -262,6 +307,16 @@
             <div class="faq-list">
                 <details class="faq-item">
                     <summary class="faq-question">
+                        <span>Who develops and maintains Payroll Hub?</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Payroll Hub is developed and operated by <strong>Jay Internet Center</strong>, a registered Micro Enterprise under the Ministry of MSME, Government of India (Udyam Reg. No: UDYAM-CG-13-0004087), located in Raigarh, Chhattisgarh.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
                         <span>How does the worker advance tracking work?</span>
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
                     </summary>
@@ -286,17 +341,7 @@
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
                     </summary>
                     <div class="faq-answer">
-                        <p>With Google Drive Auto-Sync enabled, your database is backed up securely. When installing the app on a new device, simply sign in with your Google account and restore your complete database in seconds.</p>
-                    </div>
-                </details>
-
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span>Is there a web or desktop access?</span>
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
-                    </summary>
-                    <div class="faq-answer">
-                        <p>Currently, Payroll Hub is a native Android application designed for high performance on phones and tablets. CSV exports can be opened in Excel or Google Sheets on any PC or laptop.</p>
+                        <p>With Google Drive Auto-Sync enabled, your database is backed up securely to your personal Google Drive. When installing the app on a new device, simply sign in with your Google account and restore your complete database in seconds.</p>
                     </div>
                 </details>
             </div>
@@ -313,7 +358,7 @@
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
                     Download App APK
                 </a>
-                <a href="https://github.com/vijaybharti03/PayrollHub" class="btn btn-outline-white btn-lg">
+                <a href="https://github.com/vijaybharti03/PayrollHub" class="btn btn-outline-white btn-lg" target="_blank" rel="noopener">
                     View on GitHub
                 </a>
             </div>
@@ -330,27 +375,33 @@
                     </div>
                     <span class="brand-name">Payroll<span>Hub</span></span>
                 </div>
-                <p>Worker Advance & Site Payroll Management System for Android.</p>
+                <p>Worker Advance & Site Payroll Management System. Developed by Jay Internet Center (MSME Reg: UDYAM-CG-13-0004087).</p>
             </div>
 
             <div class="footer-links">
                 <div class="f-col">
                     <h4>Navigation</h4>
+                    <a href="index.html">Home</a>
                     <a href="#features">Features</a>
-                    <a href="#solutions">Solutions</a>
-                    <a href="#security">Security</a>
-                    <a href="#faq">FAQ</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact Us</a>
                 </div>
                 <div class="f-col">
-                    <h4>Resources</h4>
-                    <a href="app-release.apk">Download APK</a>
-                    <a href="https://github.com/vijaybharti03/PayrollHub">GitHub Repository</a>
+                    <h4>Legal & Policies</h4>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="contact.html">Support Policy</a>
+                </div>
+                <div class="f-col">
+                    <h4>Downloads</h4>
+                    <a href="app-release.apk">Download Android APK</a>
+                    <a href="https://github.com/vijaybharti03/PayrollHub" target="_blank" rel="noopener">GitHub Repository</a>
                 </div>
             </div>
         </div>
         <div class="footer-bottom">
             <div class="container">
-                <p>&copy; 2025 Payroll Hub. Open Source Android Project.</p>
+                <p>&copy; 2021-2026 Jay Internet Center. All rights reserved. | Udyam Reg. No: UDYAM-CG-13-0004087 | Raigarh, Chhattisgarh, India.</p>
             </div>
         </div>
     </footer>
