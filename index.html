@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payroll Hub - Smart Worker Advance & Payroll Management</title>
+    <meta name="description" content="All-in-one Android app for worker advance management, site attendance, payroll calculations, PDF payslip generation, and Google Drive auto-sync.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="brand-logo">
+                <div class="logo-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                </div>
+                <span class="brand-name">Payroll<span>Hub</span></span>
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#features">Features</a>
+                <a href="#solutions">Solutions</a>
+                <a href="#security">Security & Sync</a>
+                <a href="#faq">FAQ</a>
+                <a href="app-release.apk" class="btn btn-outline nav-btn">Download APK</a>
+            </nav>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge">
+                    <span class="badge-dot"></span> Android Native App v19.0
+                </div>
+                <h1>Smart Worker Advance & Payroll Management System</h1>
+                <p class="hero-subtitle">
+                    Effortlessly manage worker advance payments, daily attendance, site transfers, and payroll calculations. Designed for contractors, site managers, and businesses.
+                </p>
+                <div class="hero-actions">
+                    <a href="app-release.apk" class="btn btn-primary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                        Download Android App (.APK)
+                    </a>
+                    <a href="https://github.com/vijaybharti03/PayrollHub" target="_blank" rel="noopener" class="btn btn-secondary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                        GitHub Repository
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Data Privacy (Offline-First)</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">Auto</span>
+                        <span class="stat-label">Google Drive Sync</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">PDF/CSV</span>
+                        <span class="stat-label">Instant Payslip Exports</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="app-card-preview">
+                    <div class="card-header">
+                        <div class="card-title">Dashboard Overview</div>
+                        <span class="status-badge">Live Sync Active</span>
+                    </div>
+                    <div class="card-metrics">
+                        <div class="metric-box green">
+                            <span class="m-label">Total Workers</span>
+                            <span class="m-value">248</span>
+                        </div>
+                        <div class="metric-box blue">
+                            <span class="m-label">Advance Issued</span>
+                            <span class="m-value">₹1,42,500</span>
+                        </div>
+                        <div class="metric-box orange">
+                            <span class="m-label">Monthly Payroll</span>
+                            <span class="m-value">₹8,90,000</span>
+                        </div>
+                    </div>
+                    <div class="recent-list">
+                        <div class="list-title">Recent Advance Transactions</div>
+                        <div class="list-item">
+                            <div class="item-info">
+                                <div class="item-name">Rajesh Kumar (Site A)</div>
+                                <div class="item-sub">Digital Signature Verified</div>
+                            </div>
+                            <div class="item-amount text-red">- ₹5,000</div>
+                        </div>
+                        <div class="list-item">
+                            <div class="item-info">
+                                <div class="item-name">Suresh Verma (Site B)</div>
+                                <div class="item-sub">Daily Shift Allowance</div>
+                            </div>
+                            <div class="item-amount text-red">- ₹2,000</div>
+                        </div>
+                    </div>
+                    <div class="card-footer-info">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        Encrypted Local Database with Automatic Cloud Recovery
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag">Powerful Features</span>
+                <h2>Everything You Need for Worker & Payroll Management</h2>
+                <p>Designed from the ground up for high speed, offline functionality, and complete financial clarity.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon bg-indigo">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+                    </div>
+                    <h3>Worker Advance Tracking</h3>
+                    <p>Track every advance payment given to workers with date, notes, category, and digital signatures. Maintain full history audit trails.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon bg-emerald">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    </div>
+                    <h3>Smart Daily Attendance</h3>
+                    <p>Mark daily attendance across different sites. Support for full-day, half-day, overtime hours, and custom wage rates.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon bg-blue">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                    </div>
+                    <h3>PDF Payslips & Reports</h3>
+                    <p>Generate professional PDF pay slips and detailed monthly reports in a single tap. Share directly via WhatsApp, Email, or Print.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon bg-amber">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+                    </div>
+                    <h3>Google Drive Auto-Sync</h3>
+                    <p>Never lose your data. Automatic daily background backups directly to your personal Google Drive account with seamless restore.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon bg-purple">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h3>Site & Worker Transfers</h3>
+                    <p>Manage multiple construction or project sites seamlessly. Transfer workers between sites with complete attendance history intact.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon bg-rose">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M8 13h8"/><path d="M8 17h8"/><path d="M10 9h1"/></svg>
+                    </div>
+                    <h3>JSL Govt Payroll Module</h3>
+                    <p>Dedicated module for government labour rules, compliance details, Excel/CSV master imports, and specialized labour registers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions / Role Based Section -->
+    <section class="solutions" id="solutions">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag">Built For Industry</span>
+                <h2>Tailored for Every Workflow</h2>
+            </div>
+
+            <div class="solutions-grid">
+                <div class="solution-box">
+                    <div class="sol-badge">For Contractors</div>
+                    <h3>Construction & Site Management</h3>
+                    <ul>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Track daily wage laborers across multiple sites</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Eliminate advance ledger loss with digital signature capture</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Export CSV reports for accounting software integration</li>
+                    </ul>
+                </div>
+
+                <div class="solution-box highlight">
+                    <div class="sol-badge accent">For Admin & HR</div>
+                    <h3>Payroll & Compliance Hub</h3>
+                    <ul>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Automated deduction calculations (Advance vs Salary)</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> PDF payslip generation with custom site & company branding</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Employee login credentials management</li>
+                    </ul>
+                </div>
+
+                <div class="solution-box">
+                    <div class="sol-badge">For Employees</div>
+                    <h3>Transparency & Self-Service</h3>
+                    <ul>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Employee Portal to check past attendance records</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> View total advance taken and remaining wage balance</li>
+                        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Download digital monthly payslips directly</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security & Sync Section -->
+    <section class="security" id="security">
+        <div class="container security-container">
+            <div class="security-text">
+                <span class="section-tag">Privacy First</span>
+                <h2>Your Financial Data Belongs Only to You</h2>
+                <p>Unlike cloud SaaS services that lock your data in subscription paywalls, Payroll Hub stores all data locally on your device with optional Google Drive backup controlled by you.</p>
+                <div class="sec-features">
+                    <div class="sec-item">
+                        <div class="sec-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+                        <div>
+                            <h4>Offline-First Architecture</h4>
+                            <p>Works flawlessly without internet connectivity in remote construction or field sites.</p>
+                        </div>
+                    </div>
+                    <div class="sec-item">
+                        <div class="sec-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 0 1-9 9m9-9a9 9 0 0 0-9-9m9 9H3m9 9a9 9 0 0 1-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9"/></svg></div>
+                        <div>
+                            <h4>Direct Google Drive Auto-Sync</h4>
+                            <p>Automatic background synchronization to your personal Google Drive space.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag">Got Questions?</span>
+                <h2>Frequently Asked Questions</h2>
+            </div>
+
+            <div class="faq-list">
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span>How does the worker advance tracking work?</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>When you give cash or bank advance to a worker, select the worker in the app and tap "Add Advance". You can record amount, payment mode, notes, and optionally take a digital signature. The advance is automatically deducted from their end-of-month final payroll calculation.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span>Can I export data to Excel or CSV?</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Yes! The app supports robust CSV and Excel export options for attendance registers, advance logs, and full monthly payroll summaries. You can also import existing worker lists via CSV.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span>What happens if I change my phone or uninstall the app?</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>With Google Drive Auto-Sync enabled, your database is backed up securely. When installing the app on a new device, simply sign in with your Google account and restore your complete database in seconds.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span>Is there a web or desktop access?</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Currently, Payroll Hub is a native Android application designed for high performance on phones and tablets. CSV exports can be opened in Excel or Google Sheets on any PC or laptop.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Banner CTA -->
+    <section class="cta-banner">
+        <div class="container cta-container">
+            <h2>Ready to Streamline Your Worker Payroll?</h2>
+            <p>Download the Android APK today and experience hassle-free advance & attendance management.</p>
+            <div class="cta-buttons">
+                <a href="app-release.apk" class="btn btn-primary btn-lg">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    Download App APK
+                </a>
+                <a href="https://github.com/vijaybharti03/PayrollHub" class="btn btn-outline-white btn-lg">
+                    View on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <div class="brand-logo">
+                    <div class="logo-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                    </div>
+                    <span class="brand-name">Payroll<span>Hub</span></span>
+                </div>
+                <p>Worker Advance & Site Payroll Management System for Android.</p>
+            </div>
+
+            <div class="footer-links">
+                <div class="f-col">
+                    <h4>Navigation</h4>
+                    <a href="#features">Features</a>
+                    <a href="#solutions">Solutions</a>
+                    <a href="#security">Security</a>
+                    <a href="#faq">FAQ</a>
+                </div>
+                <div class="f-col">
+                    <h4>Resources</h4>
+                    <a href="app-release.apk">Download APK</a>
+                    <a href="https://github.com/vijaybharti03/PayrollHub">GitHub Repository</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 Payroll Hub. Open Source Android Project.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
