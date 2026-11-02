@@ -25,4 +25,4 @@ Developed and operated by **Jay Internet Center** (Govt. of India Registered MSM
 - 🔒 **Privacy Policy**: [https://vijaybharti03.github.io/payrollhub/privacy.html](https://vijaybharti03.github.io/payrollhub/privacy.html)
 - 📜 **Terms of Service**: [https://vijaybharti03.github.io/payrollhub/terms.html](https://vijaybharti03.github.io/payrollhub/terms.html)
 - 📞 **Contact Us**: [https://vijaybharti03.github.io/payrollhub/contact.html](https://vijaybharti03.github.io/payrollhub/contact.html)
-- 📥 **Download App (.APK)**: [app-release.apk](https://vijaybharti03.github.io/payrollhub/app-release.apk) | [app-t1-debug.apk](https://vijaybharti03.github.io/payrollhub/app-t1-debug.apk)
+- 📥 **Download App (.APK)**: [app-t1-debug.apk](https://vijaybharti03.github.io/payrollhub/app-t1-debug.apk)
