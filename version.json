@@ -1,7 +1,7 @@
 {
   "latestVersionCode": 0,
   "latestVersionName": "1.1.0",
-  "isMandatory": true,
+  "isMandatory": false,
   "updateUrl": "https://raw.githubusercontent.com/vijaybharti03/payrollhub/main/app-debug.apk",
   "releaseNotes": "Critical security update and performance improvements."
 }
