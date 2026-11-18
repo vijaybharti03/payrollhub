@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 560" width="100%" height="100%">
+  <defs>
+    <style>
+      .blue-primary { fill: #003875; }
+      .blue-dark { fill: #002756; }
+      .grey-dark { fill: #5b6065; }
+      .grey-gear { fill: #6f7479; }
+      .orange-swoosh { fill: #ff6a00; }
+      .text-steel { font-family: 'Arial Black', 'Impact', sans-serif; font-weight: 900; font-size: 52px; fill: #5b6065; letter-spacing: 6px; }
+      .text-sub { font-family: 'Plus Jakarta Sans', 'Arial', sans-serif; font-weight: 800; font-size: 30px; fill: #003875; word-spacing: 2px; }
+    </style>
+  </defs>
+
+  <!-- TOP EMBLEM: GEAR & CROSSED TOOLS -->
+  <g transform="translate(300, 145)">
+    <!-- Outer Gear Wheel (Dark Blue) -->
+    <path d="
+      M -22,-120 L 22,-120 L 27,-98 A 100,100 0 0,1 54,-87 L 74,-100 L 100,-74 L 87,-54 A 100,100 0 0,1 98,-27 L 120,-22 L 120,22 L 98,27 A 100,100 0 0,1 87,54 L 100,74 L 74,100 L 54,87 A 100,100 0 0,1 27,98 L 22,120 L -22,120 L -27,98 A 100,100 0 0,1 -54,87 L -74,100 L -100,74 L -87,54 A 100,100 0 0,1 -98,27 L -120,22 L -120,-22 L -98,-27 A 100,100 0 0,1 -87,-54 L -100,-74 L -74,-100 L -54,-87 A 100,100 0 0,1 -27,-98 Z
+    " fill="#003875" />
+
+    <!-- Grey Right Gear Segment Overlay -->
+    <path d="
+      M 22,-120 L 27,-98 A 100,100 0 0,1 54,-87 L 74,-100 L 100,-74 L 87,-54 A 100,100 0 0,1 98,-27 L 120,-22 L 120,22 L 98,27 A 100,100 0 0,1 87,54 L 100,74 L 74,100 L 54,87 A 100,100 0 0,1 27,98 L 22,120 Z
+    " fill="#6f7479" />
+
+    <!-- White Center Disc -->
+    <circle cx="0" cy="0" r="74" fill="#ffffff" stroke="#003875" stroke-width="5" />
+
+    <!-- CROSSED TOOLS -->
+    <!-- Screwdriver (Slanted +45deg) -->
+    <g transform="rotate(45)">
+      <rect x="-6" y="-55" width="12" height="110" rx="4" fill="#003875" />
+      <rect x="-10" y="22" width="20" height="28" rx="3" fill="#003875" />
+      <path d="M -8,50 L 8,50 L 5,60 L -5,60 Z" fill="#003875" />
+      <line x1="-3" y1="26" x2="-3" y2="46" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" />
+      <line x1="3" y1="26" x2="3" y2="46" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" />
+    </g>
+
+    <!-- Open Wrench (Slanted -45deg) -->
+    <g transform="rotate(-45)">
+      <rect x="-8" y="-52" width="16" height="104" rx="4" fill="#003875" />
+      <!-- Open Head Top -->
+      <path d="M -22,-42 C -24,-65 24,-65 22,-42 C 15,-45 8,-38 0,-38 C -8,-38 -15,-45 -22,-42 Z" fill="#003875" />
+      <path d="M -9,-55 L 0,-42 L 9,-55 L 4,-64 L -4,-64 Z" fill="#ffffff" />
+      <!-- Ring Head Bottom -->
+      <circle cx="0" cy="46" r="17" fill="#003875" />
+      <circle cx="0" cy="46" r="8" fill="#ffffff" />
+      <line x1="0" y1="-28" x2="0" y2="28" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+    </g>
+  </g>
+
+  <!-- BRAND NAME: ALOK -->
+  <g transform="translate(300, 345)">
+    <!-- Letter A with Orange Accent Curve -->
+    <g transform="translate(-185, -45)">
+      <!-- Main A Path -->
+      <path d="M 38,0 L 68,0 L 98,80 L 70,80 L 62,60 L 32,60 L 24,80 L -2,80 Z M 47,18 L 38,40 L 56,40 Z" fill="#002e66" />
+      <!-- Orange Curved Swoosh across the A -->
+      <path d="M -18,66 C 5,66 28,48 52,28 C 65,18 80,10 95,8 C 78,14 60,26 42,45 C 20,68 -6,76 -18,66 Z" fill="#ff6a00" />
+    </g>
+
+    <!-- Letter L -->
+    <path d="M -72,-45 L -72,35 L -20,35 L -20,14 L -46,14 L -46,-45 Z" fill="#002e66" />
+
+    <!-- Letter O -->
+    <path d="M -5,-5 C -5,-32 16,-48 48,-48 C 80,-48 101,-32 101,-5 C 101,22 80,38 48,38 C 16,38 -5,22 -5,-5 Z M 22,-5 C 22,10 32,19 48,19 C 64,19 74,10 74,-5 C 74,-20 64,-29 48,-29 C 32,-29 22,-20 22,-5 Z" fill="#002e66" />
+
+    <!-- Letter K -->
+    <path d="M 116,-45 L 116,35 L 142,35 L 142,4 L 172,35 L 208,35 L 166,-8 L 204,-45 L 168,-45 L 142,-18 L 142,-45 Z" fill="#002e66" />
+  </g>
+
+  <!-- BRAND NAME: STEEL WITH FLANKING DOUBLE LINES -->
+  <g transform="translate(300, 430)">
+    <!-- Left Double Lines -->
+    <line x1="-250" y1="-12" x2="-130" y2="-12" stroke="#5b6065" stroke-width="5" stroke-linecap="round" />
+    <line x1="-230" y1="6" x2="-130" y2="6" stroke="#5b6065" stroke-width="5" stroke-linecap="round" />
+
+    <!-- STEEL Text -->
+    <text x="0" y="14" text-anchor="middle" class="text-steel">STEEL</text>
+
+    <!-- Right Double Lines -->
+    <line x1="130" y1="-12" x2="250" y2="-12" stroke="#5b6065" stroke-width="5" stroke-linecap="round" />
+    <line x1="130" y1="6" x2="230" y2="6" stroke="#5b6065" stroke-width="5" stroke-linecap="round" />
+  </g>
+
+  <!-- SUBTITLE: MECHANICAL MAINTENANCE WORK -->
+  <g transform="translate(300, 495)">
+    <text x="0" y="0" text-anchor="middle" class="text-sub">Mechanical Maintenance Work</text>
+  </g>
+</svg>
