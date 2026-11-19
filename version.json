@@ -1,7 +1,7 @@
 {
-  "latestVersionCode": 1,
-  "latestVersionName": "1.0",
+  "latestVersionCode": 29,
+  "latestVersionName": "29.0",
   "isMandatory": false,
-  "updateUrl": "https://raw.githubusercontent.com/vijaybharti03/payrollhub/main/app-debug.apk",
-  "releaseNotes": "Critical security update and performance improvements."
+  "updateUrl": "https://raw.githubusercontent.com/vijaybharti03/payrollhub/main/app-t1-debug.apk",
+  "releaseNotes": "Updated APK release v29.0 with latest improvements."
 }
